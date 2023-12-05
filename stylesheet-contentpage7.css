@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'Simpsonfont';
+	src: url(fonts/Simpsonfont.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #FED81B;
+	font-family: Simpsonfont;
+	font-size: 18px;
+	cursor: url(cursor/cursor.png), auto;
+}
+nav{
+	background-color: #FED81B;
+}
+nav ul{
+	width: 100%;
+	list-style:none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav li{
+	height: 50px;
+}
+nav a{
+	height: 100%;
+	padding: 0 20px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+nav a:hover{
+	background-color: #CE7DB0;
+}
+nav li:first-child{
+	margin-right: auto;
+}
+.sidebar{
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 250px;
+	z-index: 999;
+	background-color: #F0B7DB ;
+	backdrop-filter: blur(10px);
+	box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.sidebar li{
+	width: 100%;
+}
+
+
+.entirecontent-gmb {
+	margin: auto;
+  	width: 70%;
+  	padding: 30px 0px 0px 0px;
+}
+
+
+.big-logo {
+	padding: 70px 0px 23px 360px;
+}
+
+
+.big-logo img{
+	width: 500px;
+}
+
+
+
+.button1 img{
+	width: 200px;
+	z-index: 40;
+	margin-left: 640px;
+	margin-top: 40px;
+	position: relative;
+	cursor: pointer;
+}
+
+.big-img img{
+	width: 370px;
+	z-index: 30;
+	margin-top: -600px;
+	position: relative;
+}
+
+.recipe-list img{
+	width: 700px;
+	margin-left: 240px;
+	margin-top: -230px;
+	z-index: 10;
+	position: relative;
+}
+
+
+.goback img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+
+
